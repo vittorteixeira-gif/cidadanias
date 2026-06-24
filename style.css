@@ -1,1 +1,148 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+}
 
+body{
+background:#0b1220;
+color:white;
+scroll-behavior:smooth;
+}
+
+/* HERO */
+.hero{
+height:100vh;
+background:linear-gradient(135deg,#0ea5e9,#1e3a8a);
+display:flex;
+flex-direction:column;
+}
+
+/* NAV */
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:rgba(0,0,0,0.2);
+backdrop-filter:blur(10px);
+position:fixed;
+width:100%;
+top:0;
+}
+
+.nav{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+.nav a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO CONTENT */
+.hero-content{
+margin:auto;
+text-align:center;
+padding-top:100px;
+}
+
+.hero-content h1{
+font-size:3rem;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:white;
+color:#0ea5e9;
+border-radius:10px;
+text-decoration:none;
+}
+
+/* STATS */
+.stats{
+display:flex;
+justify-content:center;
+gap:20px;
+padding:50px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#111827;
+padding:20px;
+border-radius:12px;
+width:200px;
+text-align:center;
+box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+/* SECTIONS */
+.section{
+padding:80px 10%;
+}
+
+.section h2{
+color:#38bdf8;
+margin-bottom:20px;
+}
+
+.grid{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.box{
+flex:1;
+background:#111827;
+padding:20px;
+border-radius:12px;
+}
+
+/* QUIZ */
+.quiz button{
+margin:10px;
+padding:10px 15px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* INPUT */
+input{
+padding:12px;
+width:100%;
+border-radius:8px;
+margin-top:10px;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:40px;
+background:#020617;
+}
+
+/* TOP BUTTON */
+#top{
+position:fixed;
+bottom:20px;
+right:20px;
+padding:10px;
+border:none;
+border-radius:50%;
+background:#38bdf8;
+cursor:pointer;
+}
+
+/* DARK MODE */
+.dark{
+background:white;
+color:black;
+}
