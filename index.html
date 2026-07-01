@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consciência Digital | IA & Deepfakes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
+    <div class="bg-gradient-cyber"></div>
+
+    <header>
+        <div class="logo">Core<span>.IA</span></div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">O Perigo</a></li>
+                <li><a href="#identificar">Como Detectar</a></li>
+                <li><a href="#quiz">Desafio Quiz</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle" class="btn-toggle">Alternar Modo</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Cidadania Digital na Era das <span class="gradient-text">Deepfakes</span></h1>
+                <p>A inteligência artificial transformou a desinformação. Aprenda a blindar sua mente contra as mídias manipuladas e a navegar com segurança.</p>
+                <a href="#quiz" class="btn-primary">Testar Meus Olhos</a>
+            </div>
+        </section>
+
+        <section id="sobre" class="info-section">
+            <h2>O Impacto da IA na Sociedade</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <h3>O que são Deepfakes?</h3>
+                    <p>Vídeos, áudios ou imagens gerados por inteligência artificial profunda (Deep Learning) que simulam perfeitamente o rosto e a voz de pessoas reais dizendo ou fazendo coisas que nunca aconteceram.</p>
+                </div>
+                <div class="card">
+                    <h3>Infodemia Automatizada</h3>
+                    <p>Robôs e algoritmos de IA conseguem criar e espalhar boatos e notícias falsas em massa em segundos, moldando a opinião pública e ameaçando a democracia.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="identificar" class="guide-section">
+            <h2>Guia de Sobrevivência Digital</h2>
+            <p class="section-desc">Fique atento aos seguintes sinais ao consumir mídias suspeitas na internet:</p>
+            <ul class="check-list">
+                <li><strong>Piscadas Irregulares:</strong> Muitas IAs falham em simular o ato natural de piscar os olhos.</li>
+                <li><strong>Sincronia Labial:</strong> Repare se o som da fala condiz perfeitamente com o movimento dos lábios.</li>
+                <li><strong>Fundo Deturpado:</strong> Linhas tortas, borrões incomuns ou texturas estranhas ao redor do rosto.</li>
+                <li><strong>Fontes de Informação:</strong> Sempre verifique se grandes portais de notícias confirmam o fato.</li>
+            </ul>
+        </section>
+
+        <section id="quiz" class="quiz-section">
+            <h2>Quiz Interativo: Você consegue detectar?</h2>
+            <p class="section-desc">Responda às perguntas abaixo para avaliar seus conhecimentos sobre Cidadania Digital.</p>
+            
+            <form id="quiz-form">
+                <div class="quiz-item">
+                    <p>1. Se um vídeo parece absurdo, mas a voz e o rosto são idênticos aos de uma autoridade, o que você deve fazer?</p>
+                    <label>
+                        <input type="radio" name="q1" value="errado" required> Compartilhar imediatamente para alertar os outros.
+                    </label>
+                    <label>
+                        <input type="radio" name="q1" value="certo"> Desconfiar, procurar falhas visuais e buscar em fontes de notícias confiáveis.
+                    </label>
+                </div>
+
+                <div class="quiz-item">
+                    <p>2. Qual o principal perigo das Fake News impulsionadas por IA?</p>
+                    <label>
+                        <input type="radio" name="q2" value="certo" required> Escala massiva de disseminação e alto poder de convencimento visual.
+                    </label>
+                    <label>
+                        <input type="radio" name="q2" value="errado"> Elas ocupam muito espaço de armazenamento no celular.
+                    </label>
+                </div>
+
+                <button type="submit" class="btn-submit">Enviar Respostas</button>
+            </form>
+            <div id="quiz-result" class="result-box hidden"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Projeto Educação Digital & Inteligência Artificial</p>
+        <p>Desenvolvido para fins educacionais.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
